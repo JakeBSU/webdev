@@ -1,0 +1,92 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font: 75% georgia, sans-serif;
+	background-image: url("background.png");
+	background-repeat:no-repeat;
+       background-size:cover;
+	line-height: 1.88889;
+	color: #A9A9A9; 
+	margin: 0; 
+	padding: 0;
+	}
+p { 
+	margin-top: 0; 
+	text-align: justify;
+	}
+h1 {
+	font: georgia, sans-serif;
+	margin-bottom: 0;
+	color: EFEFEF;
+	}
+h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
+
+	ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+   }
+   li {
+	display: inline;
+  }
+
+/* specific divs */
+
+
+header {
+    background-color: #233237;
+}
+header h1 {
+	margin: 0;
+	position: center;
+}
+header h2 {
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 10; 
+	color: #A9A9A9;
+}
+
+
+
+footer { 
+	text-align: center; 
+	}
+footer a:link, footer a:visited { 
+	margin-right: 20px; 
+	}
+
+.navbar {
+	position: justify;
+    margin-left: 5px;	
+	}
+.logo {
+	position: justify;
+    margin-left: 5px;
+}
+.imagesize {
+	position: center-right
+	height: 50px;
+	width: 50px;
+}
